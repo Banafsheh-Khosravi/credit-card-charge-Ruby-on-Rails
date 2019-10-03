@@ -1,3 +1,5 @@
+# Ruby On Rails
+
 rails new Charges
 rails g scaffold Customer firstname:string lastname:string
 rails g scaffold Charge paid:boolean amount:integer currency:string refunded:boolean disputed:boolean customer:references
